@@ -1,5 +1,5 @@
 # XML
-Repository includes independent projects using XML, XSLT, DTD/schema, and possibly HTML, CSS, and JavaScript.
+Repository includes independent projects using XML, XSL, DTD/schema, and possibly HTML, CSS, and JavaScript.
 
 ## Projects
 * Ongoing Education
