@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Enforces rules concerning data in XML file. -->
+<!-- standard design schema -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" >
+	
+<xs:element name="list">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="item" maxOccurs="unbounded" >
+				<xs:complexType>
+					<xs:sequence>
+						
+						<!-- title: string, cannot be empty -->
+						<xs:element name="title">
+							<xs:simpleType>
+								<xs:restriction base="xs:string">
+									<xs:minLength value="1" />
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:element>
+						
+						<!-- subject: string, cannot be empty, comma delimited list, items 1+ word initial upper case followed by upper or lower case -->
+						<xs:element name="subject" >
+							<xs:simpleType>
+								<xs:restriction base="xs:string">
+									<xs:pattern value="jQuery|[A-Z][a-zA-Z]+[ ]*[a-z]*(,\s[jQuery]|,\s[A-Z][a-zA-Z]+[ ]*[a-z]*)*" />
+								</xs:restriction>			
+							</xs:simpleType>
+						</xs:element>
+						
+						<!-- institution: string, cannot be empty -->
+						<xs:element name="institution">
+							<xs:simpleType>
+								<xs:restriction base="xs:string">
+									<xs:minLength value="1" />
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:element>
+						
+						<!-- type: string, cannot be empty, choice -->
+						<xs:element name="type">
+							<xs:simpleType>
+								<xs:restriction base="xs:string">
+									<xs:pattern value="Online course|In-person course|In-person workshop|Online certificate course|In-person certificate course" />
+								</xs:restriction>		
+							</xs:simpleType>
+						</xs:element>
+						
+						<!-- location: string; initial upper case; word+ @ {city}, {state}; or {city}, {state}; or em-dash; cannot be empty -->
+						<xs:element name="location">
+							<xs:simpleType>
+								<xs:restriction base="xs:string">
+									<xs:pattern value="—|[A-Z][a-zA-Z]+([ ][a-zA-Z]+[ ]\@[ ])[A-Z][a-zA-Z]+([ ][A-Z][a-zA-Z]+)*(,\s)[A-Z][a-zA-Z]|[A-Z][a-zA-Z]+([ ][A-Z][a-zA-Z]+)*(,\s)[A-Z][a-zA-Z]"/>
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:element>
+						
+						<!-- instructor: string, cannot be empty -->
+						<xs:element name="instructor">
+							<xs:simpleType>
+								<xs:restriction base="xs:string">
+									<xs:minLength value="1" />
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:element>
+					
+						<!-- date: string; month year; month year+; month-month year; month day, year; month day-day, year; month year-month year -->
+						<xs:element name="date" >
+							<xs:simpleType>
+								<xs:restriction base="xs:string">
+									<xs:pattern value="([A-Z][a-z]+[-])*([A-Z][a-z]+[ ]20[0-1][0-9][-])*[A-Z][a-z]+([ ]\d{1,2}[,])*([ ]\d{1,2}[-]\d{1,2}[,])*([ ]20[0-1][0-9]+)[+]*" />
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:element>
+						
+						<!-- sortDate: string, yyyymm OR yyyymmdd -->
+						<xs:element name="sortDate">
+							<xs:simpleType>
+								<xs:restriction base="xs:string">
+									<xs:pattern value="20[0-1][0-9]+[0-1][0-9]+([0-3][0-9])*" />
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:element>
+						
+						<!-- javaScriptDate: string, mm/yyyy, m/yyyy, mm/dd/yyyy, m/dd/yyyy, m/d/yyyy -->
+						<xs:element name="javaScriptDate">
+							<xs:simpleType>
+								<xs:restriction base="xs:string">
+									<xs:pattern value="([0-1]*[0-9]\/)+([0-3]*[0-9]\/)*(20[0-1][0-9])+"/>
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:element>
+						
+						<!-- description: string, start with upper case, can end with period -->
+						<xs:element name="description">
+							<xs:simpleType>
+								<xs:restriction base="xs:string">
+									<xs:pattern value="[A-Z].+[\.]*"/>
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:element>
+						
+						<!-- category: at least one but not more than 5, choice -->
+						<xs:element name="category" maxOccurs="5">
+							<xs:simpleType>
+								<xs:restriction base="xs:string">
+									<xs:pattern value="JavaScript|Scripting|jQuery|Programming|Object-Oriented|PHP|Ruby|Web services|API|REST|SOAP|Git|GitHub|Command line|Web development|Web design|HTML|XML|CSS|XHTML|CMS|SharePoint|InDesign|Publishing|Technical editing|Content management|Minimalism|DITA|Technical communication|Technical writing|RoboHelp|Visio|Images|Photoshop"/>
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:element>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+	
+</xs:schema>
+
