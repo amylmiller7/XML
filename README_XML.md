@@ -1,4 +1,4 @@
-# XML_XSLT
+# XML
 Repository includes independent projects using XML, XSLT, DTD/schema, and possibly HTML, CSS, and JavaScript.
 
 ## Projects
@@ -10,7 +10,7 @@ Repository includes independent projects using XML, XSLT, DTD/schema, and possib
 
 To render any GitHub project in a browser:
 
-1. Click **XML_XSLT**.
+1. Click **XML**.
 
 2. Click any project. 
 
