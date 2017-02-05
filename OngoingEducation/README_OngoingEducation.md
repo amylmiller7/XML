@@ -9,7 +9,7 @@
 
 **Summary:** Renders XML data as HTML table in browser with CSS formatting and sortable columns. 
 
-**XML:** Links to XSL stylesheet and XSD file. Lists recent coursework (online/in-person) on technical communication, programming, web design, and other topics.
+**XML:** Links to XSL style sheet and XSD file. Lists recent coursework (online/in-person) on technical communication, programming, web design, and other topics.
 
 **XSL:** Links to CSS file and XSD file. Transforms OngoingEducation XML file to display sorted HTML table in browser.
 
