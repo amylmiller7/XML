@@ -1,4 +1,4 @@
-# Change Log OngoingEducation
+# Change Log Ongoing Education
 
 **Date: March 18, 2017**
 
