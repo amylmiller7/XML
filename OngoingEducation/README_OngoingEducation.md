@@ -6,6 +6,7 @@
 * OngoingEducation1.xsd
 * OngoingEducation.css
 * sorttable.js
+* CHANGELOG_OngoingEducation.md
 
 **Summary:** Renders XML data as HTML table in browser with CSS formatting and sortable columns. 
 
