@@ -5,14 +5,14 @@
 xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
     <item>
         <title>Coding for Writers: Basic Programming</title>
-        <subject>Technical writing, JavaScript</subject>
+        <subject>API, Technical writing, JavaScript</subject>
         <institution>Udemy</institution>
         <type>Online course</type>
         <location>—</location>
         <instructor>Peter Gruenbaum</instructor>
         <date>September 2016+</date>
-        <sortDate>201702</sortDate>
-        <javaScriptDate>02/2017</javaScriptDate>
+        <sortDate>201704</sortDate>
+        <javaScriptDate>04/2017</javaScriptDate>
         <description>Teaches programming concepts, how to write JavaScript programs, and how to write technical documentation for constants, functions, and enumerations. Aimed at technical writers. </description>
         <category>Technical writing</category>
         <category>JavaScript</category>
@@ -184,6 +184,20 @@ xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
         <category>JavaScript</category>
 		<category>Scripting</category>
 	</item>
+	<item>
+        <title>WordPress.com Essential Training</title>
+        <subject>WordPress, CMS</subject>
+        <institution>Lynda.com</institution>
+        <type>Online course</type>
+        <location>—</location>
+        <instructor>Morten Rand-Hendriksen</instructor>
+        <date>June 30, 2013</date>
+        <sortDate>20130630</sortDate>
+        <javaScriptDate>06/30/2013</javaScriptDate>
+        <description>Covers how to get up and running with WordPress.com. Includes such topics as posts, pages, profiles, themes, settings, and images.</description>
+        <category>CMS</category>
+        <category>WordPress</category>
+    </item>
     <item>
         <title>Introduction to HTML and CSS</title>
         <subject>HTML, CSS</subject>
