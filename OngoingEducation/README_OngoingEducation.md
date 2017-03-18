@@ -20,5 +20,3 @@
 
 **JS:** JavaScript library that allows users to sort data by column headers.
 
-
-Date: February 2017
