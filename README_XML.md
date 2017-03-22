@@ -14,13 +14,13 @@ To render any GitHub project in a browser:
 
 2. Click any project. 
 
-3. Click the xml file in that project.
+3. Click the XML file in that project.
 
-4. Copy URL for the xml file.
+4. Copy the URL for the XML file.
 
 5. Go to http://rawgit.com/.
 
-6. Paste URL for the xml file.
+6. Copy the URL that RawGit generates under **Use this URL in production** into your browser.
 
 7. Copy URL that RawGit generates under *Use this URL in production* into your browser.
 
