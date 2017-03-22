@@ -10,16 +10,14 @@ Repository includes independent projects using XML, XSL, DTD/schema, and possibl
 
 To render any GitHub project in a browser:
 
-1. Click **XML**.
+1. Under **XML**, click **OngoingEducation**.
 
-2. Click any project. 
+2. Click the XML file in that project folder.
 
-3. Click the XML file in that project.
+3. Copy the URL for the XML file.
 
-4. Copy the URL for the XML file.
+4. Go to http://rawgit.com/.
 
-5. Go to http://rawgit.com/.
-
-6. Copy the URL that RawGit generates under **Use this URL in production** into your browser.
+5. Copy the URL that RawGit generates under **Use this URL in production** into your browser.
 
 Conversely, to run the project locally, download all files and then click the xml file.
