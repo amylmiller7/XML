@@ -12,4 +12,4 @@
 
 **Date: February 2017**
 
-Initial project creation.
+* Initial project creation.
