@@ -683,4 +683,20 @@ xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
         <category>Programming</category>
 		<category>Object-Oriented</category>
     </item>
+		<item>
+        <title>Coding for Writers 1: Basic Programming</title>
+        <subject>JavaScript, Technical writing, API</subject>
+        <institution>Udemy</institution>
+        <type>Online course</type>
+        <location>—</location>
+        <instructor>Peter Gruenbaum</instructor>
+        <date>June 2017</date>
+        <sortDate>201609</sortDate>
+		<javaScriptDate>06/2017</javaScriptDate>
+        <description>Covers introctory programming topics, such as data types, functions, conditionals, loops, collections, enumerations, libraries. Assigns JavaScript projects for most lessons.</description>
+        <category>JavaScript</category>
+        <category>Programming</category>
+		<category>Scripting</category>
+		<category>Technical communication</category>
+    </item>
 </list>
