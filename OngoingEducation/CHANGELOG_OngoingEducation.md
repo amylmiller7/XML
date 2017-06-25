@@ -1,5 +1,9 @@
 # Change Log Ongoing Education
 
+**Date: June 25, 2017**
+
+* Updated date for Coding for Writers. 
+
 **Date: March 18, 2017**
 
 * Added API category to Coding for Writers.
