@@ -13,7 +13,7 @@ xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
         <date>In progress</date>
         <sortDate>201709</sortDate>
         <javaScriptDate>In progress</javaScriptDate>
-        <description>Covers how to use Open API Specification files to define and document APIs, and Swagger tools to edit files, create documentation, and create SDKs.</description>
+        <description>Covers how to use Open API Specification (Swagger) files to define and document APIs; Swagger tools to edit files, create documentation, and create SDKs; alternatives to Swagger and OAS.</description>
         <category>Technical writing</category>
         <category>JSON</category>
 	    <category>REST</category>
