@@ -30,7 +30,7 @@ xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
         <date>August 26, 2017</date>
         <sortDate>20170826</sortDate>
         <javaScriptDate>08/26/2017</javaScriptDate>
-        <description>Shows how to use Git to manage changes to source code and text files. Walks through how to install Git, track changes, review edits, compare versions of a file, create branches, merge changes, etc. Also, covers setting up and using a remote repository (GitHub).</description>
+        <description>Shows how to use Git to manage changes to source code and text files. Walks through how to install Git, track changes, review edits, compare versions of a file, create branches, merge changes, etc. Also, covers setting up and using a remote repository (GitHub) and collaborating.</description>
         <category>Git</category>
         <category>GitHub</category>
 		<category>Command line</category>
