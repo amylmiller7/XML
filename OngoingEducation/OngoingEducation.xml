@@ -3,6 +3,38 @@
 <!-- Lists recent coursework (online/in-person) on technical communication, programming, web design, and other topics. -->
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
+<item>
+        <title>Learn Swagger and the Open API Specification</title>
+        <subject>Swagger, APIs</subject>
+        <institution>Udemy</institution>
+        <type>Online course</type>
+        <location>—</location>
+        <instructor>Peter Gruenbaum</instructor>
+        <date>In progress</date>
+        <sortDate>201709</sortDate>
+        <javaScriptDate>In progress</javaScriptDate>
+        <description>Covers how to use Open API Specification files to define and document APIs, and Swagger tools to edit files, create documentation, and create SDKs.</description>
+        <category>Technical writing</category>
+        <category>JSON</category>
+	    <category>REST</category>
+	    <category>API</category>
+		<category>Swagger</category>
+    </item>
+    <item>
+        <title>Git Essential Training</title>
+        <subject>Git, GitHub</subject>
+        <institution>Lynda.com</institution>
+        <type>Online course</type>
+        <location>—</location>
+        <instructor>Kevin Skoglund</instructor>
+        <date>August 26, 2017</date>
+        <sortDate>20170826</sortDate>
+        <javaScriptDate>08/26/2017</javaScriptDate>
+        <description>Shows how to use Git to manage changes to source code and text files. Walks through how to install Git, track changes, review edits, compare versions of a file, create branches, merge changes, etc. Also, covers setting up and using a remote repository (GitHub).</description>
+        <category>Git</category>
+        <category>GitHub</category>
+		<category>Command line</category>
+    </item>
     <item>
         <title>Coding for Writers I: Basic Programming</title>
         <subject>API, Technical writing, JavaScript</subject>
@@ -96,8 +128,8 @@ xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
         <category>Technical writing</category>
         <category>API</category>
         <category>Programming</category>
+		<category>JSON</category>
         <category>SOAP</category>
-        <category>Technical communication</category>
     </item>
     <item>
         <title>Intro to Git and GitHub</title>
