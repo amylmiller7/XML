@@ -5,20 +5,22 @@
 xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
 <item>
         <title>Learn Swagger and the Open API Specification</title>
-        <subject>Swagger, APIs</subject>
+        <subject>Swagger, OAS, API</subject>
         <institution>Udemy</institution>
         <type>Online course</type>
         <location>—</location>
         <instructor>Peter Gruenbaum</instructor>
-        <date>In progress</date>
-        <sortDate>201709</sortDate>
-        <javaScriptDate>In progress</javaScriptDate>
-        <description>Covers how to use Open API Specification (Swagger) files to define and document APIs; Swagger tools to edit files, create documentation, and create SDKs; alternatives to Swagger and OAS.</description>
+        <date>December 6, 2017</date>
+        <sortDate>20171206</sortDate>
+        <javaScriptDate>12/06/2017</javaScriptDate>
+        <description>Covers how to use Open API Specification (YAML, JSON) files to define and document APIs; Swagger tools to edit files, create documentation, and create SDKs; alternatives to Swagger and OAS.</description>
         <category>Technical writing</category>
         <category>JSON</category>
 	    <category>REST</category>
 	    <category>API</category>
 		<category>Swagger</category>
+		<category>OAS</category>
+		<category>YAML</category>
     </item>
     <item>
         <title>Git Essential Training</title>

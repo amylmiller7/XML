@@ -1,5 +1,14 @@
 # Change Log Ongoing Education
 
+**Date: December 31, 2017**
+
+* Updated XSD file.
+	* Added 'OAS' and 'YAML' to category.
+	* Increased max for category from 5 to 7.
+* Updated XML file.
+	* Updated subject, date, sortDate, javaScriptDate, description for 'Learn Swagger' course.
+	* Added 'OAS' and 'YAML' as category for 'Learn Swagger' course.
+	
 **Date: August 27, 2017**
 
 * Updated XSD file. 

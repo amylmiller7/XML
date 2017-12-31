@@ -101,10 +101,10 @@
 						</xs:element>
 						
 						<!-- category: at least one but not more than 5, choice -->
-						<xs:element name="category" maxOccurs="5">
+						<xs:element name="category" maxOccurs="7">
 							<xs:simpleType>
 								<xs:restriction base="xs:string">
-									<xs:pattern value="JavaScript|Scripting|jQuery|Programming|Object-Oriented|PHP|Ruby|Web services|API|REST|SOAP|JSON|Git|GitHub|Command line|Web development|Web design|HTML|XML|CSS|XHTML|CMS|SharePoint|InDesign|Publishing|Technical editing|Content management|Minimalism|DITA|Technical communication|Technical writing|RoboHelp|Visio|Images|Photoshop|WordPress|Swagger"/>
+									<xs:pattern value="JavaScript|Scripting|jQuery|Programming|Object-Oriented|PHP|Ruby|Web services|API|REST|SOAP|JSON|Git|GitHub|Command line|Web development|Web design|HTML|XML|CSS|XHTML|CMS|SharePoint|InDesign|Publishing|Technical editing|Content management|Minimalism|DITA|Technical communication|Technical writing|RoboHelp|Visio|Images|Photoshop|WordPress|Swagger|OAS|YAML"/>
 								</xs:restriction>
 							</xs:simpleType>
 						</xs:element>
