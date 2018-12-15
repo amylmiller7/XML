@@ -1,5 +1,10 @@
 # Change Log Ongoing Education
 
+**Date: December 15, 2018**
+
+* Updated XML file.
+	* Added 'Jenkins Tutorial for Beginners' and 'Learning Java' courses.
+    
 **Date: December 31, 2017**
 
 * Updated XSD file.

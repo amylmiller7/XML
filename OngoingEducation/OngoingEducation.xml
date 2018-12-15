@@ -3,7 +3,36 @@
 <!-- Lists recent coursework (online/in-person) on technical communication, programming, web design, and other topics. -->
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
-<item>
+    <item>
+        <title>Learning Java</title>
+        <subject>Java</subject>
+        <institution>Lynda.com</institution>
+        <type>Online course</type>
+        <location>—</location>
+        <instructor>Kathryn Hodge</instructor>
+        <date>December 5, 2018</date>
+        <sortDate>20181205</sortDate>
+        <javaScriptDate>12/05/2018</javaScriptDate>
+        <description>Introductory course on Java programming language. Covers how to set up Java and ID and use JShell. Covers basics: variables and data types, user-defined functions, constructors method, Scanner methods for input, arrays, call by value/reference, program control flow, UML, loops, libraries, debugging, encapsulation, inheritance, interfaces, functional programming, and lambdas.</description>
+        <category>Java</category>
+        <category>Programming</category>
+    </item>
+    <item>
+        <title>Jenkins Tutorial for Beginners</title>
+        <subject>Jenkins, Maven</subject>
+        <institution>ProgrammingKnowledge</institution>
+        <type>Online tutorial</type>
+        <location>https://www.youtube.com/watch?v=yz3tyeA3Fe0</location>
+        <instructor>ProgrammingKnowledge</instructor>
+        <date>November 2018</date>
+        <sortDate>20181101</sortDate>
+        <javaScriptDate>11/01/2018</javaScriptDate>
+        <description>Introductory tutorials that cover the basics: how to install Jenkins, create jobs, trigger remote builds, integrate with Git and GitHub, create users, install plugins, manage roles, configure system environments, set up for Maven projects, send email notifications, use a pipeline, use slaves/nodes, use multiple branch pipelines, etc.</description>
+        <category>Jenkins</category>
+        <category>Maven</category>
+        <category>DevOps</category>
+    </item>
+    <item>
         <title>Learn Swagger and the Open API Specification</title>
         <subject>Swagger, OAS, API</subject>
         <institution>Udemy</institution>
@@ -19,8 +48,8 @@ xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
         <category>REST</category>
         <category>API</category>
         <category>Swagger</category>
-	<category>OAS</category>
-	<category>YAML</category>
+        <category>OAS</category>
+        <category>YAML</category>
     </item>
     <item>
         <title>Git Essential Training</title>
@@ -216,7 +245,7 @@ xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
         <description>Teaches the basics of JavaScript through various homework assignments.</description>
         <category>Programming</category>
         <category>JavaScript</category>
-	<category>Scripting</category>
+	    <category>Scripting</category>
     </item>
     <item>
         <title>WordPress.com Essential Training</title>

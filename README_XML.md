@@ -20,4 +20,4 @@ To render any GitHub project in a browser:
 
 5. Copy the URL that RawGit generates under **Use this URL in production** into your browser.
 
-Conversely, to run the project locally, download all files and then click the xml file.
+Conversely, to run the project locally, download all files and then click the xml file. As of 12/2018, only Firefox renders local XML files.
