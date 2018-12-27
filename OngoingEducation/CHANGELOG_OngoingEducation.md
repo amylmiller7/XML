@@ -1,10 +1,19 @@
 # Change Log Ongoing Education
 
+**Date: December 27, 2018**
+
+* Updated XML file.
+    * Added "Git and GitHub for Writers" course.
+* Updated XSD file.
+    * Updated location regex to accept URLs.
+    * Added categories: Java, Jenkins, Maven, DevOps.
+    * Added type: Online tutorial.
+
 **Date: December 15, 2018**
 
 * Updated XML file.
 	* Added 'Jenkins Tutorial for Beginners' and 'Learning Java' courses.
-    
+
 **Date: December 31, 2017**
 
 * Updated XSD file.
@@ -13,7 +22,7 @@
 * Updated XML file.
 	* Updated subject, date, sortDate, javaScriptDate, description for 'Learn Swagger' course.
 	* Added 'OAS' and 'YAML' as category for 'Learn Swagger' course.
-	
+
 **Date: August 27, 2017**
 
 * Updated XSD file. 

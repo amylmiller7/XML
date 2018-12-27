@@ -4,6 +4,22 @@
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
     <item>
+        <title>Git and GitHub for Writers</title>
+        <subject>Git, GitHub</subject>
+        <institution>Udemy</institution>
+        <type>Online course</type>
+        <location>—</location>
+        <instructor>Peter Gruenbaum</instructor>
+        <date>December 27, 2018</date>
+        <sortDate>20181227</sortDate>
+        <javaScriptDate>12/27/2018</javaScriptDate>
+        <description>Introduction to Git and GitHub taught for writers. Covers adding, renaming, deleting, cloning repositories. Also discussed tags, pulls, branches, stashing changes, merging branches, rebasing, gitignore files, and dealing with problems in Git. Touched on documentation in GitHub and other tools like GitBook, Jekyll, or AsciiDoctor.</description>
+        <category>Technical writing</category>
+        <category>Git</category>
+        <category>GitHub</category>
+        <category>Command line</category>
+    </item>
+    <item>
         <title>Learning Java</title>
         <subject>Java</subject>
         <institution>Lynda.com</institution>

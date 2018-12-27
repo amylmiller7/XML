@@ -41,7 +41,7 @@
 						<xs:element name="type">
 							<xs:simpleType>
 								<xs:restriction base="xs:string">
-									<xs:pattern value="Online course|In-person course|In-person workshop|Online certificate course|In-person certificate course" />
+									<xs:pattern value="Online course|Online tutorial|In-person course|In-person workshop|Online certificate course|In-person certificate course" />
 								</xs:restriction>		
 							</xs:simpleType>
 						</xs:element>
@@ -50,7 +50,7 @@
 						<xs:element name="location">
 							<xs:simpleType>
 								<xs:restriction base="xs:string">
-									<xs:pattern value="—|[A-Z][a-zA-Z]+([ ][a-zA-Z]+[ ]\@[ ])[A-Z][a-zA-Z]+([ ][A-Z][a-zA-Z]+)*(,\s)[A-Z][a-zA-Z]|[A-Z][a-zA-Z]+([ ][A-Z][a-zA-Z]+)*(,\s)[A-Z][a-zA-Z]"/>
+									<xs:pattern value="—|https?://.+|[A-Z][a-zA-Z]+([ ][a-zA-Z]+[ ]\@[ ])[A-Z][a-zA-Z]+([ ][A-Z][a-zA-Z]+)*(,\s)[A-Z][a-zA-Z]|[A-Z][a-zA-Z]+([ ][A-Z][a-zA-Z]+)*(,\s)[A-Z][a-zA-Z]"/>
 								</xs:restriction>
 							</xs:simpleType>
 						</xs:element>
@@ -104,7 +104,7 @@
 						<xs:element name="category" maxOccurs="7">
 							<xs:simpleType>
 								<xs:restriction base="xs:string">
-									<xs:pattern value="JavaScript|Scripting|jQuery|Programming|Object-Oriented|PHP|Ruby|Web services|API|REST|SOAP|JSON|Git|GitHub|Command line|Web development|Web design|HTML|XML|CSS|XHTML|CMS|SharePoint|InDesign|Publishing|Technical editing|Content management|Minimalism|DITA|Technical communication|Technical writing|RoboHelp|Visio|Images|Photoshop|WordPress|Swagger|OAS|YAML"/>
+									<xs:pattern value="JavaScript|Scripting|jQuery|Programming|Object-Oriented|PHP|Ruby|Web services|API|REST|SOAP|JSON|Git|GitHub|Command line|Web development|Web design|HTML|XML|CSS|XHTML|CMS|SharePoint|InDesign|Publishing|Technical editing|Content management|Minimalism|DITA|Technical communication|Technical writing|RoboHelp|Visio|Images|Photoshop|WordPress|Swagger|OAS|YAML|Jenkins|Maven|DevOps|Java"/>
 								</xs:restriction>
 							</xs:simpleType>
 						</xs:element>
