@@ -4,6 +4,21 @@
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
     <item>
+        <title>Java 8 Essential Training</title>
+        <subject>Java</subject>
+        <institution>Lynda.com</institution>
+        <type>Online course</type>
+        <location>—</location>
+        <instructor>David Glassner</instructor>
+        <date>January 17, 2019</date>
+        <sortDate>20190117</sortDate>
+        <javaScriptDate>01/17/2019</javaScriptDate>
+        <description>Introductory course on Java programming language. Covers how to set up Java and IntelliJ. Covers basics: variables, values, and expressions; object data types; building, comparing, parsing strings; debugging and excepton handling; loops; passing arguments by reference or value; simple and complex arryas; custom classes; inheritance and polymorphism; Java libraries; Javadoc; JAR files</description>
+        <category>Java</category>
+        <category>Programming</category>
+    </item>
+  
+    <item>
         <title>Git and GitHub for Writers</title>
         <subject>Git, GitHub</subject>
         <institution>Udemy</institution>
@@ -29,7 +44,7 @@ xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
         <date>December 5, 2018</date>
         <sortDate>20181205</sortDate>
         <javaScriptDate>12/05/2018</javaScriptDate>
-        <description>Introductory course on Java programming language. Covers how to set up Java and ID and use JShell. Covers basics: variables and data types, user-defined functions, constructors method, Scanner methods for input, arrays, call by value/reference, program control flow, UML, loops, libraries, debugging, encapsulation, inheritance, interfaces, functional programming, and lambdas.</description>
+        <description>Introductory course on Java programming language. Covers how to set up Java and IDE and use JShell. Covers basics: variables and data types, user-defined functions, constructors method, Scanner methods for input, arrays, call by value/reference, program control flow, UML, loops, libraries, debugging, encapsulation, inheritance, interfaces, functional programming, and lambdas.</description>
         <category>Java</category>
         <category>Programming</category>
     </item>
