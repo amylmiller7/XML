@@ -8,13 +8,8 @@ Repository includes independent projects using XML, XSL, DTD/schema, and possibl
 
 To view the project, do one of the following:
  * Download method: 
-    1. Download the following files:
-       * OngoingEducation.css
-       * OngoingEducation.xml
-       * OngoingEducation.xsl
-       * OngoingEducation1.xsd
-       * sorttable.js
-    2. Open the XML file (OngoingEducation.xml) in Firefox.
+    1. Download the files.
+    2. Open the XML file in Firefox.
    **Note:** Due to security issues, only Firefox renders local XML files.
  * Copy URL method:
    1. Open the HTML file in GitHub.
