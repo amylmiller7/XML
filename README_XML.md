@@ -7,5 +7,5 @@ Repository includes independent projects using XML, XSL, DTD/schema, and possibl
 ## Notes
 
 To view the project, do one of the following:
- * Download all files and then open the XML file in Firefox. Due to security issues, only Firefox renders local XML files.
- * Open the HTML file output in the OngoingEducationJava project.
+ * Download method: Download all files and then open the XML file in Firefox. **Note:** Due to security issues, only Firefox renders local XML files.
+ * Copy URL method: Copy the following URL in Chrome or Safari. **Note:** Firefox does not use CSS so table is rendered without borders. http://htmlpreview.github.io/?https://github.com/amylmiller7/XML/blob/master/OngoingEducation/OngoingEducationJava/OngoingEducation.html
