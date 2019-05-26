@@ -8,4 +8,8 @@ Repository includes independent projects using XML, XSL, DTD/schema, and possibl
 
 To view the project, do one of the following:
  * Download method: Download all files and then open the XML file in Firefox. **Note:** Due to security issues, only Firefox renders local XML files.
- * Copy URL method: Copy the following URL in Chrome or Safari. **Note:** Firefox does not use CSS so table is rendered without borders. http://htmlpreview.github.io/?https://github.com/amylmiller7/XML/blob/master/OngoingEducation/OngoingEducationJava/OngoingEducation.html
+ * Copy URL method: 
+   1. Open the HTML file in GitHub.
+   2. Copy the URL in the browser.
+   3. Add http://htmlpreview.github.io/? to a brower address bar and paste the URL for the HTML file from your clipboard.
+   Example: http://htmlpreview.github.io/?https://github.com/amylmiller7/XML/blob/master/OngoingEducation/OngoingEducationJava/OngoingEducation.html
