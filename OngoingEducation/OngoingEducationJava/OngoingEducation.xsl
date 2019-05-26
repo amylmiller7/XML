@@ -37,7 +37,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
                     <td><xsl:value-of select="institution" /></td>
                     <td><xsl:value-of select="instructor"/></td>
                     <td><xsl:value-of select="location" /></td>
-                    <td><xsl:value-of select="javaScriptDate" /></td>
+                    <td><xsl:value-of select="sortDate" /></td>
                 </tr>
                 </xsl:for-each>
             </table>

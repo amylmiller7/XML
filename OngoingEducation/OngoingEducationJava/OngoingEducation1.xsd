@@ -41,7 +41,7 @@
 						<xs:element name="type">
 							<xs:simpleType>
 								<xs:restriction base="xs:string">
-									<xs:pattern value="Online course|Online tutorial|In-person course|In-person workshop|Online certificate course|In-person certificate course" />
+									<xs:pattern value="Online course|Online tutorial|Online workshop|In-person course|In-person workshop|Online certificate course|In-person certificate course" />
 								</xs:restriction>		
 							</xs:simpleType>
 						</xs:element>
@@ -73,16 +73,16 @@
 							</xs:simpleType>
 						</xs:element>
 						
-						<!-- sortDate: string, yyyymm OR yyyymmdd -->
+						<!-- sortDate: string, yyyy-mm OR yyyy-mm-dd -->
 						<xs:element name="sortDate">
 							<xs:simpleType>
 								<xs:restriction base="xs:string">
-									<xs:pattern value="20[0-1][0-9]+[0-1][0-9]+([0-3][0-9])*" />
+									<xs:pattern value="20[0-1][0-9\-]+[0-3][0-9\-]+([0-1][0-9])*" />
 								</xs:restriction>
 							</xs:simpleType>
 						</xs:element>
 						
-						<!-- javaScriptDate: string, mm/yyyy, m/yyyy, mm/dd/yyyy, m/dd/yyyy, m/d/yyyy -->
+						<!-- javaScriptDate: string, mm/yyyy, m/yyyy, mm/dd/yyyy, m/dd/yyyy, m/d/yyyy
 						<xs:element name="javaScriptDate">
 							<xs:simpleType>
 								<xs:restriction base="xs:string">
@@ -90,6 +90,7 @@
 								</xs:restriction>
 							</xs:simpleType>
 						</xs:element>
+                      -->
 						
 						<!-- description: string, start with upper case, can end with period -->
 						<xs:element name="description">
@@ -104,7 +105,7 @@
 						<xs:element name="category" maxOccurs="7">
 							<xs:simpleType>
 								<xs:restriction base="xs:string">
-									<xs:pattern value="JavaScript|Scripting|jQuery|Programming|Object-Oriented|PHP|Ruby|Web services|API|REST|SOAP|JSON|Git|GitHub|Command line|Web development|Web design|HTML|XML|CSS|XHTML|CMS|SharePoint|InDesign|Publishing|Technical editing|Content management|Minimalism|DITA|Technical communication|Technical writing|RoboHelp|Visio|Images|Photoshop|WordPress|Swagger|OAS|YAML|Jenkins|Maven|DevOps|Java"/>
+									<xs:pattern value="AI|Machine learning|SDK|docs as code|JavaScript|Scripting|jQuery|Programming|Object-Oriented|PHP|Ruby|Web services|API|REST|SOAP|JSON|Git|GitHub|Command line|Web development|Web design|HTML|XML|CSS|XHTML|CMS|SharePoint|InDesign|Publishing|Technical editing|Content management|Minimalism|DITA|Technical communication|Technical writing|RoboHelp|Visio|Images|Photoshop|WordPress|Swagger|OAS|YAML|Jenkins|Maven|DevOps|Java"/>
 								</xs:restriction>
 							</xs:simpleType>
 						</xs:element>

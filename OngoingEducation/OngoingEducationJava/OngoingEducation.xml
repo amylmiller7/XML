@@ -3,6 +3,33 @@
 <!-- Lists recent coursework (online/in-person) on technical communication, programming, web design, and other topics. -->
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
+      <item>
+        <title>AI For Everyone</title>
+        <subject>AI</subject>
+        <institution>Coursera</institution>
+        <type>Online course</type>
+        <location>—</location>
+        <instructor>Andrew Ng</instructor>
+        <date>March 25, 2019</date>
+        <sortDate>2019-03-25</sortDate>
+        <description>Introduction to AI: defined AI, discussed machine learning, what makes valuable data, limitations of machine learning, deep learning and neural networks, what an AI project looks like.</description>
+        <category>AI</category>
+        <category>Machine learning</category>
+    </item>
+    <item>
+        <title>Crash course in API documentation</title>
+        <subject>API</subject>
+        <institution>STC summit 2019</institution>
+        <type>Online workshop</type>
+        <location>https://idratherbewriting.com/blog/crash-course-in-api-documentation/</location>
+        <instructor>Tom Johnson</instructor>
+        <date>May 25, 2010</date>
+        <sortDate>2019-05-25</sortDate>
+        <description>Compressed introduction to APIs: what are they, components of API documentation, OpenAPI specification, static site generators, reference vs. conceptual documentation, docs as code.</description>
+        <category>API</category>
+        <category>SDK</category>
+        <category>docs as code</category>
+    </item>
     <item>
         <title>Java 8 Essential Training</title>
         <subject>Java</subject>
@@ -11,13 +38,11 @@ xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
         <location>—</location>
         <instructor>David Glassner</instructor>
         <date>January 17, 2019</date>
-        <sortDate>20190117</sortDate>
-        <javaScriptDate>01/17/2019</javaScriptDate>
+        <sortDate>2019-01-17</sortDate>
         <description>Introductory course on Java programming language. Covers how to set up Java and IntelliJ. Covers basics: variables, values, and expressions; object data types; building, comparing, parsing strings; debugging and excepton handling; loops; passing arguments by reference or value; simple and complex arryas; custom classes; inheritance and polymorphism; Java libraries; Javadoc; JAR files</description>
         <category>Java</category>
         <category>Programming</category>
     </item>
-  
     <item>
         <title>Git and GitHub for Writers</title>
         <subject>Git, GitHub</subject>
@@ -26,8 +51,7 @@ xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
         <location>—</location>
         <instructor>Peter Gruenbaum</instructor>
         <date>December 27, 2018</date>
-        <sortDate>20181227</sortDate>
-        <javaScriptDate>12/27/2018</javaScriptDate>
+        <sortDate>2018-12-27</sortDate>
         <description>Introduction to Git and GitHub taught for writers. Covers adding, renaming, deleting, cloning repositories. Also discussed tags, pulls, branches, stashing changes, merging branches, rebasing, gitignore files, and dealing with problems in Git. Touched on documentation in GitHub and other tools like GitBook, Jekyll, or AsciiDoctor.</description>
         <category>Technical writing</category>
         <category>Git</category>
@@ -42,8 +66,7 @@ xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
         <location>—</location>
         <instructor>Kathryn Hodge</instructor>
         <date>December 5, 2018</date>
-        <sortDate>20181205</sortDate>
-        <javaScriptDate>12/05/2018</javaScriptDate>
+        <sortDate>2018-12-05</sortDate>
         <description>Introductory course on Java programming language. Covers how to set up Java and IDE and use JShell. Covers basics: variables and data types, user-defined functions, constructors method, Scanner methods for input, arrays, call by value/reference, program control flow, UML, loops, libraries, debugging, encapsulation, inheritance, interfaces, functional programming, and lambdas.</description>
         <category>Java</category>
         <category>Programming</category>
@@ -56,8 +79,7 @@ xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
         <location>https://www.youtube.com/watch?v=yz3tyeA3Fe0</location>
         <instructor>ProgrammingKnowledge</instructor>
         <date>November 2018</date>
-        <sortDate>20181101</sortDate>
-        <javaScriptDate>11/01/2018</javaScriptDate>
+        <sortDate>2018-11-01</sortDate>
         <description>Introductory tutorials that cover the basics: how to install Jenkins, create jobs, trigger remote builds, integrate with Git and GitHub, create users, install plugins, manage roles, configure system environments, set up for Maven projects, send email notifications, use a pipeline, use slaves/nodes, use multiple branch pipelines, etc.</description>
         <category>Jenkins</category>
         <category>Maven</category>
@@ -71,8 +93,7 @@ xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
         <location>—</location>
         <instructor>Peter Gruenbaum</instructor>
         <date>December 6, 2017</date>
-        <sortDate>20171206</sortDate>
-        <javaScriptDate>12/06/2017</javaScriptDate>
+        <sortDate>2017-12-06</sortDate>
         <description>Covers how to use Open API Specification (YAML, JSON) files to define and document APIs; Swagger tools to edit files, create documentation, and create SDKs; alternatives to Swagger and OAS.</description>
         <category>Technical writing</category>
         <category>JSON</category>
@@ -90,8 +111,7 @@ xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
         <location>—</location>
         <instructor>Kevin Skoglund</instructor>
         <date>August 26, 2017</date>
-        <sortDate>20170826</sortDate>
-        <javaScriptDate>08/26/2017</javaScriptDate>
+        <sortDate>2017-08-26</sortDate>
         <description>Shows how to use Git to manage changes to source code and text files. Walks through how to install Git, track changes, review edits, compare versions of a file, create branches, merge changes, etc. Also, covers setting up and using a remote repository (GitHub) and collaborating.</description>
         <category>Git</category>
         <category>GitHub</category>
@@ -105,8 +125,7 @@ xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
         <location>—</location>
         <instructor>Peter Gruenbaum</instructor>
         <date>June 2017</date>
-        <sortDate>201706</sortDate>
-        <javaScriptDate>06/2017</javaScriptDate>
+        <sortDate>2017-06</sortDate>
         <description>Teaches programming concepts, how to write JavaScript programs, and how to write technical documentation for constants, functions, and enumerations. Aimed at technical writers. </description>
         <category>Technical writing</category>
         <category>JavaScript</category>
@@ -122,8 +141,7 @@ xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
         <location>Indianapolis, IN</location>
         <instructor>Rodrigo Espinosa</instructor>
         <date>March-April 2016</date>
-        <sortDate>201604</sortDate>
-        <javaScriptDate>04/2016</javaScriptDate>
+        <sortDate>2016-04</sortDate>
         <description>Covers how to create interactive websites with basic JavaScript, dynamic HTML, and JSON.</description>
         <category>JavaScript</category>
         <category>Scripting</category>
@@ -137,8 +155,7 @@ xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
         <location>—</location>
         <instructor>Peter Gruenbaum</instructor>
         <date>March 2016</date>
-        <sortDate>201603</sortDate>
-        <javaScriptDate>03/2016</javaScriptDate>
+        <sortDate>2016-03</sortDate>
         <description>Covers how to produce API documentation. Third course in series.</description>
         <category>Technical writing</category>
         <category>API</category>
@@ -154,8 +171,7 @@ xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
         <location>Indianapolis, IN</location>
         <instructor>Lindsay Siovaila</instructor>
         <date>March 7, 2016</date>
-        <sortDate>20160307</sortDate>
-         <javaScriptDate>03/07/2016</javaScriptDate>
+        <sortDate>2016-03-07</sortDate>
         <description>Introduces web development terms and technology. Discusses UX, UI, and tools for building sites. Covers the roles of web development team members.</description>
         <category>Web development</category>
     </item>
@@ -167,8 +183,7 @@ xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
         <location>—</location>
         <instructor>Peter Gruenbaum</instructor>
         <date>February 2016</date>
-        <sortDate>201602</sortDate>
-        <javaScriptDate>02/2016</javaScriptDate>
+        <sortDate>2016-02</sortDate>
         <description>Covers how to produce API documentation, focused on REST. Second course in series.</description>
         <category>Technical writing</category>
         <category>API</category>
@@ -184,8 +199,7 @@ xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
         <location>—</location>
         <instructor>Peter Gruenbaum</instructor>
         <date>February 2016</date>
-        <sortDate>201602</sortDate>
-         <javaScriptDate>02/2016</javaScriptDate>
+        <sortDate>2016-02</sortDate>
         <description>Covers how to produce API documentation, focused on SOAP. First course in series.</description>
         <category>Technical writing</category>
         <category>API</category>
@@ -201,8 +215,7 @@ xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
         <location>Indianapolis, IN</location>
         <instructor>Lindsay Siovaila</instructor>
         <date>June 24, 2015</date>
-        <sortDate>20150624</sortDate>
-         <javaScriptDate>06/24/2015</javaScriptDate>
+        <sortDate>2015-06-24</sortDate>
         <description>Covers the setup and use of Git and GitHub for version control and collaboration.</description>
         <category>Git</category>
         <category>GitHub</category>
@@ -215,8 +228,7 @@ xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
         <location>—</location>
         <instructor>Leah Guren</instructor>
         <date>March-May 2015</date>
-        <sortDate>201505</sortDate>
-        <javaScriptDate>05/2015</javaScriptDate>
+        <sortDate>2015-05</sortDate>
         <description>Teaches soft skills, project management, advanced editing, and tools for technical communication.</description>
         <category>Technical writing</category>
         <category>Technical communication</category>
@@ -229,8 +241,7 @@ xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
         <location>—</location>
         <instructor>Leah Guren</instructor>
         <date>October-December 2014</date>
-        <sortDate>201412</sortDate>
-        <javaScriptDate>12/2014</javaScriptDate>
+        <sortDate>2014-12</sortDate>
         <description>Teaches the theory and skills needed for technical communication.</description>
         <category>Technical writing</category>
         <category>Technical communication</category>
@@ -243,8 +254,7 @@ xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
         <location>Interactive Intelligence @ Indianapolis, IN</location>
         <instructor>Bernard Aschwanden</instructor>
         <date>February 27-28, 2014</date>
-        <sortDate>20140228</sortDate>
-        <javaScriptDate>02/28/2014</javaScriptDate>
+        <sortDate>2014-02-28</sortDate>
         <description>Teaches minimalist writing best practices to reduce volume and complexity of writing, improve design, increase reader comprehension, and decrease the cost to develop, produce, and maintain materials.</description>
         <category>Technical writing</category>
         <category>Minimalism</category>
@@ -257,8 +267,7 @@ xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
         <location>Santa Clara, CA</location>
         <instructor>Patrick Bosek</instructor>
         <date>July 13, 2013</date>
-        <sortDate>20130713</sortDate>
-        <javaScriptDate>07/13/2013</javaScriptDate>
+        <sortDate>2013-07-13</sortDate>
         <description>Covers the basics of DITA, the easyDITA software application, and how to use the easyDITA CMS.</description>
         <category>DITA</category>
         <category>Technical communication</category>
@@ -271,8 +280,7 @@ xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
         <location>—</location>
         <instructor>John Baker</instructor>
         <date>June 2013-January 2014</date>
-        <sortDate>201401</sortDate>
-       	<javaScriptDate>01/2014</javaScriptDate>
+        <sortDate>2014-01</sortDate>
         <description>Teaches the basics of JavaScript through various homework assignments.</description>
         <category>Programming</category>
         <category>JavaScript</category>
@@ -286,8 +294,7 @@ xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
         <location>—</location>
         <instructor>Morten Rand-Hendriksen</instructor>
         <date>June 30, 2013</date>
-        <sortDate>20130630</sortDate>
-        <javaScriptDate>06/30/2013</javaScriptDate>
+        <sortDate>2013-06-30</sortDate>
         <description>Covers how to get up and running with WordPress.com. Includes such topics as posts, pages, profiles, themes, settings, and images.</description>
         <category>CMS</category>
         <category>WordPress</category>
@@ -300,8 +307,7 @@ xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
         <location>—</location>
         <instructor>Lorri Coey</instructor>
         <date>April-June 2013</date>
-        <sortDate>201306</sortDate>
-        <javaScriptDate>06/2013</javaScriptDate>
+        <sortDate>2013-06</sortDate>
         <description>Introduces basic and intermediary HTML and CSS.</description>
         <category>HTML</category>
         <category>CSS</category>
@@ -314,8 +320,7 @@ xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
         <location>—</location>
         <instructor>Michelle Corbin and Linda Oestreich</instructor>
         <date>August-September 2011</date>
-        <sortDate>201109</sortDate>
-        <javaScriptDate>09/2011</javaScriptDate>
+        <sortDate>2011-09</sortDate>
         <description>Covers the tools, methodologies, types of editing, and best practices for technical editing.</description>
         <category>Technical editing</category>
         <category>Technical communication</category>
@@ -328,8 +333,7 @@ xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
         <location>STC summit @ Sacramento, CA</location>
         <instructor>Ann Rockley</instructor>
         <date>May 2011</date>
-        <sortDate>201105</sortDate>
-        <javaScriptDate>05/2011</javaScriptDate>
+        <sortDate>2011-05</sortDate>
         <description>Covers how to perform content management analysis, assessment, and audit; how to create a business case; and content modeling using DITA.</description>
         <category>Content management</category>
         <category>Technical communication</category>
@@ -343,8 +347,7 @@ xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
         <location>—</location>
         <instructor>Joe Marini</instructor>
         <date>March 2011</date>
-        <sortDate>201103</sortDate>
-        <javaScriptDate>03/2011</javaScriptDate>
+        <sortDate>2011-03</sortDate>
         <description>Teaches basic XML semantics, syntax, style sheets, schema definitions, and tools.</description>
         <category>XML</category>
     </item>
@@ -356,8 +359,7 @@ xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
         <location>—</location>
         <instructor>Joe Marini</instructor>
         <date>April 2011</date>
-        <sortDate>201104</sortDate>
-        <javaScriptDate>04/2011</javaScriptDate>
+        <sortDate>2011-04</sortDate>
         <description>Covers best practices, tools, and implementation of XML formats in real-world situations.</description>
         <category>XML</category>
     </item>
@@ -369,8 +371,7 @@ xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
         <location>—</location>
         <instructor>Jim Maivald</instructor>
         <date>May 4, 2011</date>
-        <sortDate>20110504</sortDate>
-        <javaScriptDate>05/04/2011</javaScriptDate>
+        <sortDate>2011-05-04</sortDate>
         <description>Explains how to use XML tools to enhance the page design process in InDesign, how to use the Structure pane and Tags panel, how to write code for integration of XML into InDesign and external editors, and how to add dynamic content to pages with XML.</description>
         <category>InDesign</category>
         <category>XML</category>
@@ -384,8 +385,7 @@ xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
         <location>—</location>
         <instructor>James Williamson</instructor>
         <date>May 23, 2011</date>
-        <sortDate>20110523</sortDate>
-        <javaScriptDate>05/23/2011</javaScriptDate>
+        <sortDate>2011-05-23</sortDate>
         <description>Presents a high-level overview of HTML5 in its current state (2011), how it differs from HTML 4, the current level of support in various browsers and mobile devices, and how the specification might evolve in the future.</description>
         <category>HTML</category>
     </item> 
@@ -397,8 +397,7 @@ xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
         <location>—</location>
         <instructor>James Williamson</instructor>
         <date>May 30, 2011</date>
-        <sortDate>20110530</sortDate>
-        <javaScriptDate>05/30/2011</javaScriptDate>
+        <sortDate>2011-05-30</sortDate>
         <description>Gives an overview of CMS solutions (WordPress, Drupal, Joomla). Explains terminology, best practices, content management strategy, and how to evaluate CMSs (hosted/self-hosted, open source/proprietary).</description>
         <category>CMS</category>
         <category>Content management</category>
@@ -411,8 +410,7 @@ xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
         <location>—</location>
         <instructor>Simon Allardice</instructor>
         <date>May 6, 2011</date>
-        <sortDate>20110506</sortDate>
-        <javaScriptDate>05/06/2011</javaScriptDate>
+        <sortDate>2011-05-06</sortDate>
         <description>Reviews the creation and use of SharePoint sites, lists, and libraries.</description>
         <category>SharePoint</category>
     </item>
@@ -424,8 +422,7 @@ xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
         <location>—</location>
         <instructor>Christopher Deutsch</instructor>
         <date>June 8, 2011</date>
-        <sortDate>20110608</sortDate>
-        <javaScriptDate>06/08/2011</javaScriptDate>
+        <sortDate>2011-06-08</sortDate>
         <description>Shows how to use CSS to control layout and the look and feel of web pages.</description>
         <category>CSS</category>
     </item>  
@@ -437,8 +434,7 @@ xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
         <location>—</location>
         <instructor>Bill Weinman</instructor>
         <date>June 16, 2011</date>
-        <sortDate>20110616</sortDate>
-        <javaScriptDate>06/16/2011</javaScriptDate>
+        <sortDate>2011-06-16</sortDate>
         <description>Reviews CSS fundamentals: how to format text, images, backgrounds; how to position elements on page; inline and external styles; best practices; and browser support.</description>
         <category>CSS</category>
     </item>
@@ -450,8 +446,7 @@ xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
         <location>—</location>
         <instructor>James Williamson</instructor>
         <date>June 14, 2011</date>
-        <sortDate>20110614</sortDate>
-        <javaScriptDate>06/14/2011</javaScriptDate>
+        <sortDate>2011-06-14</sortDate>
         <description>Reviews web design techniques and technologies, fundamental concepts and terms, best practices, web dev tools, server-side software solutions, content management solutions, and cloud-based solutions.</description>
         <category>Web development</category>
         <category>Web design</category>
@@ -464,8 +459,7 @@ xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
         <location>—</location>
         <instructor>James Williamson</instructor>
         <date>June 16, 2011</date>
-        <sortDate>20110616</sortDate>
-        <javaScriptDate>06/16/2011</javaScriptDate>
+        <sortDate>2011-06-16</sortDate>
         <description>Covers HTML5 and its development, new tags and attributes, and how browsers parse and display HTML5 content. Show  how to construct an HTML5 document with a header and footer, navigation, content groups, and formatting.</description>
         <category>HTML</category>
     </item> 
@@ -477,8 +471,7 @@ xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
         <location>—</location>
         <instructor>Bill Weinman</instructor>
         <date>June 21, 2011</date>
-        <sortDate>20110621</sortDate>
-        <javaScriptDate>06/21/2011</javaScriptDate>
+        <sortDate>2011-06-21</sortDate>
         <description>Covers the structure, block and inline-level tags, floating images, controlling white space, phrase and font markup, tables, and frames for XHMTL and HTML.</description>
         <category>HTML</category>
         <category>XHTML</category>
@@ -491,8 +484,7 @@ xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
         <location>—</location>
         <instructor>Dori Smith</instructor>
         <date>June 28, 2011</date>
-        <sortDate>20110628</sortDate>
-        <javaScriptDate>06/28/2011</javaScriptDate>
+        <sortDate>2011-06-28</sortDate>
         <description>Covers how to work with objects, create buttons and forms, and make rollovers, menus, slideshows, and countdowns.</description>
         <category>JavaScript</category>
         <category>Programming</category>
@@ -506,8 +498,7 @@ xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
         <location>—</location>
         <instructor>Deke McClelland</instructor>
         <date>August 2, 2011</date>
-        <sortDate>20110802</sortDate>
-        <javaScriptDate>08/02/2011</javaScriptDate>
+        <sortDate>2011-08-02</sortDate>
         <description>Explains how to design polished multi-page documents for print and electronic output in InDesign. Covers the basics of formatting type, flowing text, placing images, and combining type and graphics.</description>
         <category>InDesign</category>
         <category>Publishing</category>
@@ -520,8 +511,7 @@ xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
         <location>—</location>
         <instructor>Simon Allardice</instructor>
         <date>August 12, 2011</date>
-        <sortDate>20110812</sortDate>
-        <javaScriptDate>08/12/2011</javaScriptDate>
+        <sortDate>2011-08-12</sortDate>
         <description>Teaches best practices and practical uses for JavaScript that cover syntax; working with the DOM; developing and debugging across multiple platforms, devices, and browsers; how to progressively enhance and gracefully degrade web pages; and how to use JavaScript libraries.</description>
         <category>JavaScript</category>
         <category>Scripting</category>
@@ -534,8 +524,7 @@ xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
         <location>—</location>
         <instructor>David Blatner</instructor>
         <date>October 6, 2011</date>
-        <sortDate>20111006</sortDate>
-        <javaScriptDate>10/06/2011</javaScriptDate>
+        <sortDate>2011-10-06</sortDate>
         <description>Shows how to create new docs with master pages, position text and graphics, prepare docs for print, and export designs as interactive PDF or Flash SWF files in InDesign.</description>
         <category>InDesign</category>
         <category>Publishing</category>
@@ -548,8 +537,7 @@ xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
         <location>—</location>
         <instructor>David Edson</instructor>
         <date>December 8, 2011</date>
-        <sortDate>20111208</sortDate>
-        <javaScriptDate>12/8/2011</javaScriptDate>
+        <sortDate>2011-12-08</sortDate>
         <description>Covers the Visio interface and how to make different types of diagrams in Visio.</description>
         <category>Visio</category>
         <category>Images</category>
@@ -562,8 +550,7 @@ xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
         <location>—</location>
         <instructor>Michael Ninness</instructor>
         <date>May 31, 2012</date>
-        <sortDate>20120531</sortDate>
-        <javaScriptDate>5/31/2012</javaScriptDate>
+        <sortDate>2012-05-31</sortDate>
         <description>Introduces Photoshop, Adobe Bridge, Camera Raw, and the most efficient ways to perform common editing tasks.</description>
         <category>Photoshop</category>
         <category>Images</category>
@@ -576,8 +563,7 @@ xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
         <location>—</location>
         <instructor>Simon Allardice</instructor>
         <date>June 5, 2012</date>
-        <sortDate>20120605</sortDate>
-        <javaScriptDate>06/05/2012</javaScriptDate>
+        <sortDate>2012-06-05</sortDate>
         <description>Uses JavaScript to explain core programming syntax, how to write and execute code, how to write module code, and how to debug.</description>
         <category>Programming</category>
     </item>  
@@ -589,8 +575,7 @@ xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
         <location>—</location>
         <instructor>Simon Allardice</instructor>
         <date>June 11, 2012</date>
-        <sortDate>20120611</sortDate>
-        <javaScriptDate>06/11/2012</javaScriptDate>
+        <sortDate>2012-06-11</sortDate>
         <description>Introduces object-oriented design and terms (abstraction, inheritance, polymorphism, subclass).</description>
         <category>Programming</category>
         <category>Object-Oriented</category>
@@ -603,8 +588,7 @@ xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
         <location>—</location>
         <instructor>Joe Marini</instructor>
         <date>July 20, 2012</date>
-        <sortDate>20120720</sortDate>
-        <javaScriptDate>07/20/2012</javaScriptDate>
+        <sortDate>2012-07-20</sortDate>
         <description>Explains how to use a jQuery library to add advanced functionality to websites.</description>
         <category>jQuery</category>
         <category>Scripting</category>
@@ -617,8 +601,7 @@ xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
         <location>—</location>
         <instructor>Bill Weinman</instructor>
         <date>July 20, 2012</date>
-        <sortDate>20120720</sortDate>
-        <javaScriptDate>07/20/2012</javaScriptDate>
+        <sortDate>2012-07-20</sortDate>
         <description>Shows how to create editable content using the document-editing application programming interface (API) in HTML5.</description>
         <category>HTML</category>
     </item>
@@ -630,8 +613,7 @@ xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
         <location>—</location>
         <instructor>Justin Seeley</instructor>
         <date>May 27, 2013</date>
-        <sortDate>20130527</sortDate>
-        <javaScriptDate>05/27/2013</javaScriptDate>
+        <sortDate>2013-05-27</sortDate>
         <description>Covers how to optimize CSS for easier navigation, organization, and readability. Explains best practices for format, commenting, and TOCs.</description>
         <category>CSS</category>
     </item>
@@ -643,8 +625,7 @@ xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
         <location>—</location>
         <instructor>David Rivers</instructor>
         <date>June 20, 2013</date>
-        <sortDate>20130620</sortDate>
-        <javaScriptDate>0/6/20/2013</javaScriptDate>
+        <sortDate>2013-06-20</sortDate>
         <description>Teaches the core features of RoboHelp and how to work with RoboHelp pods, save custom workspaces, create new projects, and leverage existing content in other formats, such as Word and PDF documents. Includes tutorials on merging projects, topic formatting, using graphics and multimedia, and using forms and frames.</description>
         <category>RoboHelp</category>
         <category>HTML</category>
@@ -657,8 +638,7 @@ xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
         <location>—</location>
         <instructor>Judy Steiner-Williams</instructor>
         <date>April 26, 2016</date>
-        <sortDate>20160426</sortDate>
-        <javaScriptDate>04/26/2016</javaScriptDate>
+        <sortDate>2016-04-26</sortDate>
         <description>Reviews the rules and guidelines for writing in plain English for clarity.</description>
         <category>Technical writing</category>
         <category>Technical communication</category>
@@ -671,8 +651,7 @@ xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
         <location>—</location>
         <instructor>David Gassner</instructor>
         <date>May 22, 2016</date>
-        <sortDate>20160522</sortDate>
-        <javaScriptDate>05/22/2016</javaScriptDate>
+        <sortDate>2016-05-22</sortDate>
         <description>Defines web services and explores their history and use in distributed computing. Covers transport protocols HTTP and SMTP; messaging formats such as SOAP, ATOM, JSON, and Plain Old XML (POX); and service standards like SOAP toolkits, REST, and OData. Explains how to secure your communications across the web with API keys and other security standards.</description>
         <category>Programming</category>
         <category>Web services</category>
@@ -685,8 +664,7 @@ xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
         <location>—</location>
         <instructor>Judy Steiner-Williams</instructor>
         <date>June 15, 2016</date>
-        <sortDate>20160615</sortDate>
-        <javaScriptDate>06/15/2016</javaScriptDate>
+        <sortDate>2016-06-15</sortDate>
         <description>Covers the basic principles of grammar, different parts of speech, possessive rules, and the difference between writing vs. spelling out numbers.</description>
         <category>Technical writing</category>
         <category>Technical communication</category>
@@ -699,8 +677,7 @@ xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
         <location>—</location>
         <instructor>—</instructor>
         <date>February 2014</date>
-        <sortDate>201402</sortDate>
-        <javaScriptDate>02/2014</javaScriptDate>
+        <sortDate>2014-02</sortDate>
         <description>Teaches fundamental programming concepts and how to use them by creating programs with JavaScript. Covers data types, functions, loops, control flow, and objects.</description>
         <category>JavaScript</category>
         <category>Programming</category>
@@ -714,8 +691,7 @@ xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
         <location>—</location>
         <instructor>—</instructor>
         <date>February 2014</date>
-        <sortDate>201402</sortDate>
-        <javaScriptDate>02/2014</javaScriptDate>
+        <sortDate>2014-02</sortDate>
         <description>Shows how to add interactivity and animations to websites with the jQuery library.</description>
         <category>jQuery</category>
         <category>Scripting</category>
@@ -728,8 +704,7 @@ xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
         <location>—</location>
         <instructor>—</instructor>
         <date>March 2014</date>
-        <sortDate>201503</sortDate>
-        <javaScriptDate>03/2014</javaScriptDate>
+        <sortDate>2015-03</sortDate>
         <description>Teaches the server-side language PHP and fundamental programming concepts such as data types, functions, and control flow.</description>
         <category>PHP</category>
         <category>Programming</category>
@@ -742,8 +717,7 @@ xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
         <location>—</location>
         <instructor>—</instructor>
         <date>August 2015</date>
-        <sortDate>201508</sortDate>
-        <javaScriptDate>08/2015</javaScriptDate>
+        <sortDate>2015-08</sortDate>
         <description>Shows how to use the command line to navigate, access, and modify files and folders on your computer.</description>
         <category>Command line</category>
         <category>Git</category>
@@ -756,8 +730,7 @@ xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
         <location>—</location>
         <instructor>—</instructor>
         <date>May 27, 2014</date>
-        <sortDate>20140527</sortDate>
-        <javaScriptDate>05/27/2015</javaScriptDate>
+        <sortDate>2014-05-27</sortDate>
         <description>Reviews basics of Git, including how to initialize a repo and how to add, commit, and push your code to GitHub.</description>
         <category>GitHub</category>
         <category>Git</category>
@@ -770,8 +743,7 @@ xsi:noNamespaceSchemaLocation="OngoingEducation1.xsd">
         <location>—</location>
         <instructor>—</instructor>
         <date>January 2015</date>
-        <sortDate>201501</sortDate>
-        <javaScriptDate>01/2015</javaScriptDate>
+        <sortDate>2015-01</sortDate>
         <description>Introduces basic programming concepts such as variables, loops, control flow, and object-oriented programming through Ruby.</description>
         <category>Ruby</category>
         <category>Programming</category>
