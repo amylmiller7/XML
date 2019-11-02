@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a9bac31c-d6f8-4d99-8c04-375dfbc449f5" name="Default Changelist" comment="" />
+    <list default="true" id="a9bac31c-d6f8-4d99-8c04-375dfbc449f5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CHANGELOG_OngoingEducation.md" beforeDir="false" afterPath="$PROJECT_DIR$/../CHANGELOG_OngoingEducation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OngoingEducation.html" beforeDir="false" afterPath="$PROJECT_DIR$/OngoingEducation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OngoingEducation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OngoingEducation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OngoingEducation1.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/OngoingEducation1.xsd" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,7 +18,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/XSLT.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -23,6 +30,11 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/OngoingEducation.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -31,6 +43,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -41,31 +56,38 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="81" />
-    <option name="y" value="579" />
+    <option name="y" value="129" />
     <option name="width" value="1149" />
     <option name="height" value="771" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="OngoingEducation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OngoingEducation" type="462c0819:PsiDirectoryNode" />
+              <item name="OngoingEducationJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OngoingEducationJava" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OngoingEducationJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OngoingEducationJava" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558881389511" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -118,9 +140,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="367" y="55" width="1149" height="771" extended-state="0" />
+    <frame x="81" y="129" width="1149" height="771" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25835592" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26287264" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -158,6 +180,9 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OngoingEducation.iml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

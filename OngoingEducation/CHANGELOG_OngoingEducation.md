@@ -1,5 +1,18 @@
 # Change Log Ongoing Education
 
+**Date: November 2, 2019**
+
+  * Updated XML file.
+    * Added 'AWS Essentials 2019' course.
+    * Added 'AWS Concepts' course.
+    * Added 'Web Security: OAuth and OpenID Connect' course.
+    * Added 'API Testing and Validation' course.
+    * Added 'Designing RESTful APIs' course.
+    * Added 'HTTP Essential Training' course.
+    * Added 'Learning REST APIs' course.
+  * Updated XSD file.
+    * Added categories: AWS, OAuth, Testing, HTTP.
+
 **Date: May 26, 2019**
 
   * Updated XML file.
