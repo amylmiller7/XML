@@ -2,7 +2,7 @@
 Repository includes independent projects using XML, XSL, DTD/schema, and possibly HTML, CSS, and JavaScript. Repository also includes Java project that outputs HTML to get around CORS error message when loading an XML file directly in a browser.
 
 ## Projects
-* Ongoing Education
+* Ongoing Education STOPPED UPDATING FILES WITH ONGOING EDUCATION 12/2019.
 
 ## Notes
 
