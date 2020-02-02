@@ -1,5 +1,10 @@
 # Change Log Ongoing Education
 
+**Date: February 2, 2020**
+  
+  * Updated README.
+    * STOPPED UPDATING FILES WITH ONGOING EDUCATION 12/2019.
+    
 **Date: November 2, 2019**
 
   * Updated XML file.

@@ -1,5 +1,7 @@
 # Ongoing Education
 
+STOPPED UPDATING FILES WITH ONGOING EDUCATION 12/2019.
+
 **Files:** 
 * OngoingEducationJava project
 * OngoingEducation.xml
