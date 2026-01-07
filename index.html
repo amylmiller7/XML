@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amy's XML Projects</title>
+    <style>
+
+        body {
+            font-family: Arial, Verdana, Helvetica, sans-serif;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        h1 {
+            color: #2c3e50;
+            padding-bottom: 10px;
+        }
+
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+        }
+
+        /* Base table styles */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            border-spacing: 0;
+            font-family: system-ui, -apple-system, sans-serif;
+            font-size: 1rem;
+            line-height: 1.5;
+            color: #212529;
+            background-color: #ffffff;
+        }
+
+        /* Table caption */
+        caption {
+            padding: 0.75rem;
+            font-size: 1.25rem;
+            font-weight: 600;
+            text-align: left;
+            caption-side: top;
+        }
+
+        /* Header cells */
+        thead th {
+            background-color: #e9ecef;
+            color: #212529;
+            font-weight: 600;
+            text-align: left;
+            padding: 0.75rem 1rem;
+            border-bottom: 2px solid #6c757d;
+        }
+
+        /* Body cells */
+        tbody td,
+        tbody th {
+            padding: 0.75rem 1rem;
+            border-bottom: 1px solid #adb5bd;
+            vertical-align: top;
+        }
+
+        /* Row headers in body */
+        tbody th {
+            font-weight: 600;
+            text-align: left;
+        }
+
+        /* Footer cells */
+        tfoot td,
+        tfoot th {
+            padding: 0.75rem 1rem;
+            font-weight: 600;
+            background-color: #e9ecef;
+            border-top: 2px solid #6c757d;
+        }
+
+        /* Zebra striping for better readability */
+        tbody tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+
+        /* Hover state for interactive tables */
+        tbody tr:hover {
+            background-color: #e9ecef;
+        }
+
+        /* Focus styles for keyboard navigation */
+        table:focus-within td:focus,
+        table:focus-within th:focus {
+            outline: 2px solid #0d6efd;
+            outline-offset: -2px;
+        }
+
+        /* Responsive wrapper */
+        .table-wrapper {
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            margin: 1rem 0;
+        }
+
+        /* Sortable column indicators (if applicable) */
+        th[aria-sort] {
+            cursor: pointer;
+            user-select: none;
+        }
+
+        th[aria-sort="ascending"]::after {
+            content: " ↑";
+            font-size: 0.875em;
+        }
+
+        th[aria-sort="descending"]::after {
+            content: " ↓";
+            font-size: 0.875em;
+        }
+
+        /* Mobile optimization */
+        @media (max-width: 768px) {
+            table {
+                font-size: 0.875rem;
+            }
+            
+            thead th,
+            tbody td,
+            tbody th,
+            tfoot td,
+            tfoot th {
+                padding: 0.5rem 0.75rem;
+            }
+        }
+
+        /* Print styles */
+        @media print {
+            tbody tr:hover {
+                background-color: transparent;
+            }
+            
+            thead th {
+                background-color: #e9ecef !important;
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>XML projects</h1>
+        <p>This landing page contains links to all projects I worked on that use XML, XSL, and XSD files. The projects are hosted on GitHub Pages. You can view the source code on <a href="https://github.com/amylmiller7/XML" rel="noopener">GitHub</a>.</p>
+        <div class="table-wrapper">
+            <table>
+                <caption>Personal projects</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Project name</th>
+                        <th scope="col">Project type</th>
+                        <th scope="col">Description</th>
+                        <th scope="col">Project output</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+
+                        <td>OngoingEducation</td>
+                        <td>Independent project to create a webpage that lists courses and training in select topics</td>
+                        <td>Uses XML, XSL, XSD, CSS, JavaScript, and HTML files. Java project outputs HTML to get around CORS error message that occurs when loading an XML file directly in a browser.</td>
+                        <td><a href="OngoingEducation/OngoingEducationJava/OngoingEducation.html">Ongoing Education</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+</body>
+</html>
